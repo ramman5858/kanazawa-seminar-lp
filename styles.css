@@ -93,28 +93,6 @@ a {
   background-size: 34px 34px;
 }
 
-.support-badge {
-  display: inline-grid;
-  gap: 3px;
-  margin: 0 auto 24px;
-  padding: 12px 22px;
-  border-radius: 999px;
-  background: var(--white);
-  box-shadow: 7px 7px 0 rgba(255, 212, 73, 0.85);
-  text-align: center;
-}
-
-.support-badge span {
-  color: var(--red-dark);
-  font-size: 0.95rem;
-  font-weight: 900;
-}
-
-.support-badge strong {
-  font-size: clamp(1rem, 2vw, 1.25rem);
-  line-height: 1.35;
-}
-
 .eyebrow,
 .section-kicker {
   margin: 0 0 10px;
@@ -555,12 +533,6 @@ ul {
 
   .hero {
     min-height: auto;
-    text-align: left;
-  }
-
-  .support-badge {
-    margin-inline: 0;
-    border-radius: 18px;
     text-align: left;
   }
 
