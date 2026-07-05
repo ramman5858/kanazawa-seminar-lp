@@ -506,6 +506,11 @@ ul {
   overflow-wrap: anywhere;
 }
 
+.contact-mail-button {
+  width: min(100%, 340px);
+  margin-top: 24px;
+}
+
 .bottom-menu {
   position: fixed;
   right: clamp(12px, 4vw, 40px);

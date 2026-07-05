@@ -15,3 +15,10 @@ document.querySelectorAll('a[href^="#"]').forEach((link) => {
     });
   });
 });
+
+document.querySelector(".contact-mail-button")?.addEventListener("click", () => {
+  const local = ["support", "center"].join("_");
+  const domain = ["city", "kanazawa", "lg", "jp"].join(".");
+  const subject = encodeURIComponent("連続セミナーについての問い合わせ");
+  window.location.href = `mailto:${local}@${domain}?subject=${subject}`;
+});
