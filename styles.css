@@ -474,6 +474,38 @@ ul {
   text-align: center;
 }
 
+.contact-list {
+  display: grid;
+  gap: 10px;
+  width: min(620px, 100%);
+  margin: 26px auto 0;
+  text-align: left;
+}
+
+.contact-list div {
+  display: grid;
+  grid-template-columns: 110px minmax(0, 1fr);
+  gap: 16px;
+  padding: 14px 0;
+  border-top: 2px dotted var(--line);
+}
+
+.contact-list dt {
+  color: var(--red-dark);
+  font-weight: 900;
+}
+
+.contact-list dd {
+  margin: 0;
+  color: var(--ink);
+  font-weight: 800;
+}
+
+.contact-list a {
+  color: var(--ink);
+  overflow-wrap: anywhere;
+}
+
 .bottom-menu {
   position: fixed;
   right: clamp(12px, 4vw, 40px);
@@ -543,6 +575,11 @@ ul {
 
   .button {
     width: 100%;
+  }
+
+  .contact-list div {
+    grid-template-columns: 1fr;
+    gap: 2px;
   }
 
   .hero-flow,
