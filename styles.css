@@ -459,7 +459,6 @@ ul {
   flex: 0 0 86px;
   width: 86px;
   height: 86px;
-  border: 3px solid var(--red);
   border-radius: 50%;
   object-fit: cover;
 }
@@ -510,7 +509,6 @@ ul {
   max-width: 920px;
   margin: 0 auto;
   padding: 8px;
-  border: 3px solid var(--ink);
   border-radius: 18px;
   background: rgba(255, 250, 242, 0.96);
   box-shadow: 0 12px 34px rgba(53, 49, 45, 0.2);
