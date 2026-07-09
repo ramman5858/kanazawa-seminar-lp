@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 250" role="img" aria-labelledby="title desc">
+  <title id="title">Workshop illustration for polishing writing with chat</title>
+  <desc id="desc">Hand drawn style devices, chat bubbles, writing cards, and friendly AI chat icon.</desc>
+  <defs>
+    <filter id="rough">
+      <feTurbulence type="fractalNoise" baseFrequency="0.02" numOctaves="2" seed="11"/>
+      <feDisplacementMap in="SourceGraphic" scale="1.1"/>
+    </filter>
+  </defs>
+  <rect width="420" height="250" rx="28" fill="#fffaf2"/>
+  <g filter="url(#rough)" stroke="#3d3935" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="72" y="64" width="175" height="120" rx="14" fill="#f8fbff"/>
+    <path d="M94 161h131M125 186h69" fill="none"/>
+    <path d="M103 90h88c12 0 19 8 19 18s-7 18-19 18h-49l-24 20 8-20h-23c-12 0-19-8-19-18s7-18 19-18z" fill="#dceef8"/>
+    <path d="M119 108h63" fill="none" stroke-width="3"/>
+    <path d="M173 137h62c10 0 16 7 16 16 0 8-6 15-16 15h-31l-19 15 6-15h-18c-10 0-16-7-16-15 0-9 6-16 16-16z" fill="#ffe173"/>
+    <path d="M190 154h35" fill="none" stroke-width="3"/>
+    <rect x="272" y="78" width="72" height="126" rx="18" fill="#ffffff"/>
+    <path d="M292 98h33M292 116h20M292 151h31M292 168h24" fill="none" stroke-width="3"/>
+    <circle cx="332" cy="58" r="26" fill="#39a96b"/>
+    <path d="M321 58c7-11 17-11 25 0M318 68c11 9 25 9 36 0" fill="none" stroke="#fffaf2" stroke-width="5"/>
+    <rect x="55" y="193" width="88" height="28" rx="8" fill="#d33d52"/>
+    <rect x="258" y="33" width="84" height="27" rx="8" fill="#f3a74f"/>
+    <path d="M58 44c19 3 34 12 43 28M355 201c16-9 26-22 31-39" fill="none" stroke="#2ba6c8" stroke-width="7"/>
+  </g>
+  <g fill="none" stroke="#3d3935" stroke-width="4" stroke-linecap="round" opacity=".22">
+    <path d="M25 209c43 11 93 12 148 4"/>
+    <path d="M255 224c40 4 80 1 122-9"/>
+  </g>
+</svg>

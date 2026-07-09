@@ -209,8 +209,8 @@ a {
 
 .hero-flow a {
   position: relative;
-  min-height: 142px;
-  padding: 20px 16px;
+  min-height: 264px;
+  padding: 12px 14px 18px;
   border-radius: 10px;
   background: var(--white);
   box-shadow: 0 10px 26px rgba(70, 42, 22, 0.08);
@@ -229,11 +229,21 @@ a {
 
 .hero-flow span {
   display: inline-block;
+  margin-top: 12px;
   padding: 2px 12px;
   border-radius: 999px;
   color: var(--white);
   background: var(--red);
   font-weight: 900;
+}
+
+.hero-flow-illust {
+  display: block;
+  width: 100%;
+  aspect-ratio: 21 / 12.5;
+  border-radius: 10px;
+  object-fit: cover;
+  background: #fffaf2;
 }
 
 .hero-flow strong,
