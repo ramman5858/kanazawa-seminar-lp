@@ -1,30 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 250" role="img" aria-labelledby="title desc">
-  <title id="title">Workshop illustration for polishing writing with chat</title>
-  <desc id="desc">Hand drawn style devices, chat bubbles, writing cards, and friendly AI chat icon.</desc>
-  <defs>
-    <filter id="rough">
-      <feTurbulence type="fractalNoise" baseFrequency="0.02" numOctaves="2" seed="11"/>
-      <feDisplacementMap in="SourceGraphic" scale="1.1"/>
-    </filter>
-  </defs>
+  <title id="title">文章相談を連想するアイコン</title>
+  <desc id="desc">チャット画面、吹き出し、文章カードを組み合わせた手描き風の文章相談アイコン。</desc>
   <rect width="420" height="250" rx="28" fill="#fffaf2"/>
-  <g filter="url(#rough)" stroke="#3d3935" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
-    <rect x="72" y="64" width="175" height="120" rx="14" fill="#f8fbff"/>
-    <path d="M94 161h131M125 186h69" fill="none"/>
-    <path d="M103 90h88c12 0 19 8 19 18s-7 18-19 18h-49l-24 20 8-20h-23c-12 0-19-8-19-18s7-18 19-18z" fill="#dceef8"/>
-    <path d="M119 108h63" fill="none" stroke-width="3"/>
-    <path d="M173 137h62c10 0 16 7 16 16 0 8-6 15-16 15h-31l-19 15 6-15h-18c-10 0-16-7-16-15 0-9 6-16 16-16z" fill="#ffe173"/>
-    <path d="M190 154h35" fill="none" stroke-width="3"/>
-    <rect x="272" y="78" width="72" height="126" rx="18" fill="#ffffff"/>
-    <path d="M292 98h33M292 116h20M292 151h31M292 168h24" fill="none" stroke-width="3"/>
-    <circle cx="332" cy="58" r="26" fill="#39a96b"/>
-    <path d="M321 58c7-11 17-11 25 0M318 68c11 9 25 9 36 0" fill="none" stroke="#fffaf2" stroke-width="5"/>
-    <rect x="55" y="193" width="88" height="28" rx="8" fill="#d33d52"/>
-    <rect x="258" y="33" width="84" height="27" rx="8" fill="#f3a74f"/>
-    <path d="M58 44c19 3 34 12 43 28M355 201c16-9 26-22 31-39" fill="none" stroke="#2ba6c8" stroke-width="7"/>
+  <path d="M46 204c48 12 101 12 158 1M291 35c35-4 65 0 91 10" fill="none" stroke="#d7d0c6" stroke-width="4" stroke-linecap="round"/>
+  <g stroke="#3d3935" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="85" y="54" width="190" height="132" rx="22" fill="#fff"/>
+    <path d="M115 85h74M115 164h118" fill="none" stroke-width="4"/>
+    <path d="M127 104h98c14 0 22 9 22 21s-8 21-22 21h-53l-31 25 9-25h-23c-14 0-22-9-22-21s8-21 22-21z" fill="#dceef8"/>
+    <path d="M144 125h74" fill="none" stroke-width="4"/>
+    <path d="M215 150h74c13 0 21 8 21 19s-8 18-21 18h-33l-27 22 8-22h-22c-13 0-21-8-21-18s8-19 21-19z" fill="#ffe173"/>
+    <path d="M234 169h49" fill="none" stroke-width="4"/>
+    <rect x="298" y="67" width="54" height="116" rx="17" fill="#fff"/>
+    <path d="M315 96h20M315 116h28M315 137h18" fill="none" stroke-width="4"/>
+    <circle cx="314" cy="49" r="22" fill="#39a96b"/>
+    <path d="M307 48c6-8 13-8 20 0M305 59c8 7 18 7 27 0" fill="none" stroke="#fffaf2" stroke-width="5"/>
+    <path d="M61 87c19 4 32 14 41 31" fill="none" stroke="#2ba6c8" stroke-width="9"/>
+    <path d="M354 149c15-13 23-29 24-49" fill="none" stroke="#2ba6c8" stroke-width="8"/>
+    <rect x="72" y="183" width="75" height="22" rx="8" fill="#d33d52"/>
   </g>
-  <g fill="none" stroke="#3d3935" stroke-width="4" stroke-linecap="round" opacity=".22">
-    <path d="M25 209c43 11 93 12 148 4"/>
-    <path d="M255 224c40 4 80 1 122-9"/>
-  </g>
+  <circle cx="210" cy="125" r="100" fill="none" stroke="#39a96b" stroke-width="3" stroke-dasharray="9 13" opacity=".22"/>
 </svg>
